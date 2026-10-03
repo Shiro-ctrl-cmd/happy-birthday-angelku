@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For Angel ♡</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         BACKGROUND
+    ========================== -->
+
+    <div class="background-glow glow-1"></div>
+    <div class="background-glow glow-2"></div>
+    <div class="background-glow glow-3"></div>
+
+    <div id="butterflies"></div>
+
+
+    <!-- =========================
+         MAIN CONTENT
+    ========================== -->
+
+    <main>
+
+        <!-- BIRTHDAY CARD -->
+
+        <section class="birthday-section">
+
+            <div class="birthday-card">
+
+                <!-- LEFT : TEXT -->
+
+                <div class="message-area">
+
+                    <div class="chapter-number" id="chapterNumber">
+                        01 / 05
+                    </div>
+
+                    <p class="small-title">
+                        A little message for you
+                    </p>
+
+                    <h1 id="birthdayTitle">
+                        Happy Birthday, Angel ♡
+                    </h1>
+
+                    <div class="message-line"></div>
+
+                    <p id="birthdayMessage">
+                        Semoga hari ini menjadi salah satu hari
+                        paling indah yang pernah kamu lewati.
+                    </p>
+
+                </div>
+
+
+                <!-- RIGHT : PHOTO -->
+
+                <div class="photo-area">
+
+                    <div class="photo-frame">
+
+                        <img
+                            id="mainPhoto"
+                            src=""
+                            alt="Memory Photo"
+                        >
+
+                        <div class="photo-placeholder" id="photoPlaceholder">
+                            Your photo here ♡
+                        </div>
+
+                    </div>
+
+                    <button class="shuffle-button" id="photoShuffle">
+                        ↻
+                    </button>
+
+                    <div class="photo-counter" id="photoCounter">
+                        01 / 15
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- MESSAGE SHUFFLE -->
+
+            <button class="main-shuffle" id="messageShuffle">
+                <span>Shuffle Message</span>
+                <strong>↻</strong>
+            </button>
+
+        </section>
+
+
+
+        <!-- =========================
+             MUSIC
+        ========================== -->
+
+        <section class="music-section">
+
+            <div class="music-card">
+
+                <div class="music-info">
+
+                    <span class="music-icon">♫</span>
+
+                    <div>
+                        <p class="music-label">
+                            A song for you
+                        </p>
+
+                        <h2 id="songTitle">
+                            Your Birthday Song
+                        </h2>
+                    </div>
+
+                </div>
+
+
+                <button id="musicButton" class="music-button">
+                    <span id="musicIcon">▶</span>
+                    <span id="musicText">Play Music</span>
+                </button>
+
+            </div>
+
+
+            <!-- AUDIO FILE
+                 GANTI src DENGAN FILE MUSIKMU
+            -->
+
+            <audio id="birthdayAudio" preload="metadata">
+                <source src="" type="audio/mpeg">
+            </audio>
+
+
+            <!-- LYRICS -->
+
+            <div class="lyrics-container" id="lyricsContainer">
+
+                <div class="lyrics-fade top"></div>
+
+                <div class="lyrics" id="lyrics">
+                    <!-- Lyrics akan dibuat oleh JavaScript -->
+                </div>
+
+                <div class="lyrics-fade bottom"></div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             MEMORIES
+        ========================== -->
+
+        <section class="memories-section">
+
+            <p class="section-label">
+                OUR MEMORIES
+            </p>
+
+            <h2>
+                Inilah kenangan yang telah kita
+                <span>ukir bersama~</span>
+            </h2>
+
+            <p class="section-description">
+                Beberapa potongan kecil dari cerita
+                yang pernah kita lalui bersama.
+            </p>
+
+
+            <div class="memory-card-wrapper">
+
+                <div class="memory-card">
+
+                    <div class="memory-image-container">
+
+                        <img
+                            id="memoryPhoto"
+                            src=""
+                            alt="Our Memory"
+                        >
+
+                        <div
+                            class="memory-placeholder"
+                            id="memoryPlaceholder"
+                        >
+                            Memory Photo ♡
+                        </div>
+
+                    </div>
+
+                    <div class="memory-overlay"></div>
+
+                    <div class="memory-number" id="memoryNumber">
+                        01 / 15
+                    </div>
+
+                    <button
+                        class="memory-shuffle"
+                        id="memoryShuffle"
+                    >
+                        ↻ Shuffle
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             SIX VERSIONS OF ME
+        ========================== -->
+
+        <section class="versions-section">
+
+            <p class="section-label">
+                LETTERS FROM ME
+            </p>
+
+            <h2>
+                Six versions of <span>me.</span>
+            </h2>
+
+            <p class="section-description">
+                Enam sisi diriku, enam pesan yang ingin
+                kusampaikan kepadamu.
+            </p>
+
+
+            <div class="version-grid" id="versionGrid">
+                <!-- Dibuat oleh JavaScript -->
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             FINAL
+        ========================== -->
+
+        <section class="final-section">
+
+            <div class="final-glow"></div>
+
+            <p>
+                And after all these words...
+            </p>
+
+            <h2>
+                Happy Birthday,
+                <span>Angel ♡</span>
+            </h2>
+
+            <div class="final-line"></div>
+
+            <p class="final-small">
+                Dibuat dengan penuh cinta oleh <span>Maulana Ibrahim Alfatah</span>
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         SCRIPT
+    ========================== -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
